@@ -310,6 +310,7 @@ hr {
     padding-top: 40px;
     width: 100%;
     text-align: center;
+    margin-top: 65%;
 
 }
 
@@ -364,7 +365,7 @@ hr {
 #contact-h {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin: 60px auto 60px auto;
+    margin: 80px auto;
 }
 
 .heading-coto {
@@ -372,68 +373,78 @@ hr {
     color: #53BF9D;
 }
 
-#contact-main {
-    text-align: center;
+#contact-1{
     font-family: 'Montserrat', sans-serif;
-}
 
-#contact-1 {
+    text-align: center;
     float: left;
-    margin-top: 50px;
+    margin-left: 35px;
+    margin-top: 35px;
+    
+}
+.con-box{
+    margin: auto;
+    width: 50%;
+    
+}
 
+.cotoimg{
+    padding-bottom: 5px;
+    width: 22%;
 
 }
 
-.cotoimg {
-    width: 10%;
-    height: 10%;
-}
-
-.con-box {
-    padding: 5px;
+.con-h{
+    margin-top: 8px;
+    font-size: 25px;
+    margin-bottom: 10px;
 
 }
 
-.con-h {
-    font-size: 20px;
-    color: #53BF9D;
+.con-para{
+    margin: 0 auto 30px auto;
 }
 
-#contact-2 {
+#contact-2{
+    margin-top: 35px;
+  
+    text-align: center;
     float: right;
-    margin-top: 50px;
+    padding-top: 10px;
+    position: relative;
+    
+
 }
 
-.coto-in-1 {
+.coto-form{
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+}
+
+.coto-in-1{
     width: 50%;
     padding: 20px;
-    border-radius: 5px;
+    margin-bottom: 40px;
+    border-radius: 10px;
     border-style: solid;
-    border-color: #A5C9CA;
-
+    border-color: #53BF9D;
+   
 }
 
-.coto-in-t {
-    margin-bottom: 50px;
+textarea{
+    resize: none;
 }
 
-.coto-in-text {
-    margin-top: 15px;
+.btn-cto{
+  
+    
 }
 
-.text-margin-b {
-    margin-bottom: 35px;
-}
-
-#btn-cto {
-    text-align: center;
-    margin: 0px 330px 0 0px;
-}
-
-
-.btn-cto-1 {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
+.btn-cto-1{
+    position: absolute;
+    right: 538px;
+    top: 450px;
     border-radius: 28px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
@@ -443,14 +454,18 @@ hr {
     text-decoration: none;
 }
 
-.btn-cto-1:hover {
-    background: #1f1f21;
-    background-image: -webkit-linear-gradient(top, #1f1f21, #000000);
-    background-image: -moz-linear-gradient(top, #1f1f21, #000000);
-    background-image: -ms-linear-gradient(top, #1f1f21, #000000);
-    background-image: -o-linear-gradient(top, #1f1f21, #000000);
-    background-image: linear-gradient(to bottom, #1f1f21, #000000);
-    text-decoration: none;
+
+
+.btn-cto-1:hover{
+
+background: #1f1f21;
+background-image: -webkit-linear-gradient(top, #1f1f21, #000000);
+background-image: -moz-linear-gradient(top, #1f1f21, #000000);
+background-image: -ms-linear-gradient(top, #1f1f21, #000000);
+background-image: -o-linear-gradient(top, #1f1f21, #000000);
+background-image: linear-gradient(to bottom, #1f1f21, #000000);
+text-decoration: none;
+
 }
 
 
