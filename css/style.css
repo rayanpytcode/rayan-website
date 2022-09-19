@@ -1,0 +1,519 @@
+body {
+    margin: 0;
+
+}
+
+/* -------Nav Bar-------*/
+
+#nav-bar {
+    position: relative;
+    background-color: #A5C9CA;
+    padding: 40px;
+    overflow: hidden;
+
+}
+
+.p-photo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 180px;
+    top: 15.5px;
+
+}
+
+.nav-ul {
+    margin: 0;
+    float: right;
+    margin-right: 100px;
+
+}
+
+.nav-list-img {
+    list-style: none;
+    padding: 10px;
+    float: left;
+
+}
+
+.nav-items-img {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    color: white;
+
+}
+
+.nav-list {
+    list-style: none;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.nav-items {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    color: white;
+
+}
+
+.nav-items:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+/* -------Hero 1-------*/
+.m-heading {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.m-heading:hover {
+    color: #53BF9D;
+}
+
+.m-para {
+    line-height: 1;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.20rem;
+}
+
+.m-span {
+    text-decoration: underline;
+}
+
+.m-span:hover {
+    color: grey;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+#t-container {
+    text-align: center;
+    background-color: #A5C9CA;
+    position: relative;
+    padding-top: 100px;
+}
+
+.t-cloud {
+    position: absolute;
+    right: 370px;
+    bottom: 550px;
+}
+
+.b-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 350px;
+}
+
+/* -------Hero 2-------*/
+hr {
+    border-color: grey;
+    border-width: 5px;
+    width: 6%;
+    border-style: dotted none none none;
+    margin: 40px auto;
+}
+
+
+#hero2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hero2-img {
+    width: 15%;
+    height: 15%;
+    margin: 25px auto;
+}
+
+.hero2-head {
+    margin: 25px auto;
+    color: #53BF9D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+}
+
+.hero2-head:hover {
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hero2-para {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 54%;
+    margin: 20px auto;
+    text-align: justify;
+
+
+}
+
+.hero-2-a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+/* -------Hero 3-------*/
+#myskill {
+    text-align: center;
+}
+
+.skill-head {
+    font-family: 'Montserrat', sans-serif;
+    margin: 60px auto;
+    font-size: 35px;
+    color: #53BF9D;
+}
+
+.skill-row1 {
+    margin: 100px auto 120px auto;
+    width: 50%;
+
+}
+
+.skill-row2 {
+    margin: 120px auto 100px auto;
+    width: 50%;
+
+}
+
+.skill-row3 {
+    margin: 100px auto 120px auto;
+    width: 50%;
+
+}
+
+.enter-img {
+    margin-right: 25px;
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+
+.code-img {
+    margin-left: 25px;
+    width: 25%;
+    height: 25%;
+    float: right;
+}
+
+.trade-img {
+    margin-right: 25px;
+    width: 25%;
+    height: 25%;
+    float: left;
+
+}
+
+.myskill-head {
+    color: #53BF9D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.myskill-para1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.myskill-para2 {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.myskill-para3 {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -------Hero 4-------*/
+#b-contact {
+    text-align: center;
+}
+
+.b-contact-head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #53BF9D;
+    padding: 30px;
+    margin-bottom: 15px;
+
+}
+
+.b-contact-head2 {
+    cursor: pointer;
+    color: #A5C9CA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 40%;
+    margin: 20px auto 10px auto;
+
+}
+
+.b-contact-para {
+    text-align: center;
+    margin: 50px auto 41px auto;
+    width: 40%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif
+}
+
+#btn-c {
+    text-align: center;
+    margin: 70px auto;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background: #53BF9D;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #1f1f21;
+    background-image: -webkit-linear-gradient(top, #1f1f21, #000000);
+    background-image: -moz-linear-gradient(top, #1f1f21, #000000);
+    background-image: -ms-linear-gradient(top, #1f1f21, #000000);
+    background-image: -o-linear-gradient(top, #1f1f21, #000000);
+    background-image: linear-gradient(to bottom, #1f1f21, #000000);
+    text-decoration: none;
+}
+
+/* -------Hero 5-------*/
+#footer {
+    background-color: #A5C9CA;
+    height: 150px;
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer-items {
+
+    padding: 20px;
+}
+
+.footer-link {
+    margin-top: 30px;
+    font-weight: lighter;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.footer-link:hover {
+    cursor: pointer;
+    color: #000000;
+    transition: 1S;
+}
+
+.footer-para {
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer-para:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.social-img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    right: 14px;
+}
+
+.rymk-link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* -------Contact PAGE-------*/
+#contact-h {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 60px auto 60px auto;
+}
+
+.heading-coto {
+    font-size: 2.5rem;
+    color: #53BF9D;
+}
+
+#contact-main {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact-1 {
+    float: left;
+    margin-top: 50px;
+
+
+}
+
+.cotoimg {
+    width: 10%;
+    height: 10%;
+}
+
+.con-box {
+    padding: 5px;
+
+}
+
+.con-h {
+    font-size: 20px;
+    color: #53BF9D;
+}
+
+#contact-2 {
+    float: right;
+    margin-top: 50px;
+}
+
+.coto-in-1 {
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #A5C9CA;
+
+}
+
+.coto-in-t {
+    margin-bottom: 50px;
+}
+
+.coto-in-text {
+    margin-top: 15px;
+}
+
+.text-margin-b {
+    margin-bottom: 35px;
+}
+
+#btn-cto {
+    text-align: center;
+    margin: 0px 330px 0 0px;
+}
+
+
+.btn-cto-1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background: #53BF9D;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-cto-1:hover {
+    background: #1f1f21;
+    background-image: -webkit-linear-gradient(top, #1f1f21, #000000);
+    background-image: -moz-linear-gradient(top, #1f1f21, #000000);
+    background-image: -ms-linear-gradient(top, #1f1f21, #000000);
+    background-image: -o-linear-gradient(top, #1f1f21, #000000);
+    background-image: linear-gradient(to bottom, #1f1f21, #000000);
+    text-decoration: none;
+}
+
+
+
+
+/* -------About PAGE-------*/
+
+#about-page {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.About-head {
+    color: #53BF9D;
+    margin: 60px auto;
+}
+
+.about-para {
+    margin: 0 auto 100px auto;
+    text-align: left;
+    text-align: justify;
+    width: 75%;
+}
+
+.about-a {
+    text-decoration: none;
+    color: grey;
+}
+
+.about-a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+/* -------Hover Effects-------*/
+
+
+.hover-all-black{
+    color: #53BF9D;
+    cursor: pointer;
+}
+
+.hover-all-black:hover{
+    color: #000000;
+    transition: .5s;
+    
+}
+
+.hover-all-blue{
+    color: #53BF9D;
+    cursor: pointer;
+}
+.hover-all-blue:hover{
+    color: #A5C9CA;
+    transition: .5s;
+}
+
+.b-contact-head2:hover{
+
+color: #53BF9D;
+transition: .5s;
+}
